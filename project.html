@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+</head>
+<body>
+ 
+
+  <a-scene id="aframe" loading-screen="dotsColor: black; backgroundColor: white" ar-hit-test="target:#objects;" webxr renderer="precision: high; antialias: auto; colorManagement: true; sortObjects: true; physicallyCorrectLights: true" light="defaultLightsEnabled: false" antialias="true" shadow="autoUpdate: true; enabled: true; type: pcfsoft;" raycaster="far: 100; objects: [link]; autoRefresh: false" cursor="rayOrigin: mouse" id="scene">
+
+  <a-asset-item id="Grass" src="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/dry_grass%20(1).glb"></a-asset-item>
+</a-assets>
+  <a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="100 50 75" position="-150 4.5 -250" rotation="0 45 0"></a-entity>
+  <a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="150 80 120" position="350 4.5 150" rotation="0 90 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="80 40 60" position="-50 4.5 350" rotation="0 180 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="120 60 90" position="250 4.5 -150" rotation="0 -45 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="200 100 150" position="-350 4.5 50" rotation="0 135 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="90 45 70" position="50 4.5 150" rotation="0 -90 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="130 70 110" position="-250 4.5 -50" rotation="0 -135 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="60 30 45" position="150 4.5 250" rotation="0 45 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="110 55 80" position="-50 4.5 50" rotation="0 -180 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="180 90 135" position="350 4.5 -150" rotation="0 90 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="75 35 55" position="-250 4.5 250" rotation="0 -45 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="150 50 100" position="-300 4.5 150" rotation="0 45 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="80 20 50" position="400 4.5 -200" rotation="0 180 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="200 100 150" position="350 4.5 -50" rotation="0 135 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="120 30 70" position="-100 4.5 300" rotation="0 -90 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="60 15 40" position="200 4.5 -150" rotation="0 60 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="100 25 60" position="-50 4.5 -250" rotation="0 -45 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="180 45 90" position="300 4.5 100" rotation="0 30 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="90 22 55" position="-200 4.5 350" rotation="0 -135 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="130 32 75" position="250 4.5 0" rotation="0 90 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="70 18 45" position="-150 4.5 50" rotation="0 -30 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="90 40 60" position="100 4.5 -300" rotation="0 -60 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="160 70 100" position="-200 4.5 200" rotation="0 120 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="120 50 80" position="50 4.5 -150" rotation="0 -30 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="200 90 130" position="300 4.5 100" rotation="0 -90 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="80 30 50" position="-100 4.5 250" rotation="0 45 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="140 60 90" position="150 4.5 -50" rotation="0 -135 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="100 40 70" position="-250 4.5 -200" rotation="0 30 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="180 80 120" position="200 4.5 150" rotation="0 -60 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model="#Grass" scale="130 50 80" position="-50 4.5 50" rotation="0 90 0"></a-entity>
+
+
+
+
+<a-entity light="color:#FCF6EA; intensity: 0.42; type: ambient" position="182 0 327"></a-entity>
+      <!-- shadow -->
+      <a-entity light="color:#FCF6EA; intensity: 0.5; castShadow: true; type: point; shadowBias: -0.007; decay: -0.2; distance: 4000; shadowRadius:2" position="-14.500 603.777 817.989"  data-aframe-default-light="" aframe-injected="" rotation="-60 0 0" ></a-entity>
+      <!-- sun -->
+      <a-entity light="color:#FCF9D9; type:directional; intensity: 1; target: new_test4" position="182.000 -4.30949 327"></a-entity>
+
+      <a-entity light="color: #FCF6EA; intensity: 0.15; type: spot; shadowBias: -0.007; decay: -0.3" position="24.937 3344.145 6027.418" data-aframe-default-light="" aframe-injected="" rotation="-60 -168 0"></a-entity>
+
+
+      <a-entity light="color: #FCF6EA; intensity: 0.1; type: spot; shadowBias: -0.007; decay: -0.3" position="182.000 2686.985 327.000" data-aframe-default-light="" aframe-injected="" rotation="-90 0 0"></a-entity>
+
+  
+  
+      <a-entity shadow="cast: true; receive: true" gltf-model="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/acacia_tree.glb" position="-125.076 0 37.981" scale="30 30 30" ></a-entity>
+      <a-entity shadow="cast: true; receive: true" gltf-model="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/acacia_tree.glb" position="149.525 0 74.795" scale="30 30 30" roation="0 270.000 0"></a-entity>
+      
+  
+  
+  <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+  
+  <a-sky src="https://static.vecteezy.com/system/resources/previews/000/447/061/original/seamless-background-with-clouds-in-blue-sky-vector.jpg" scale="10 10 10"></a-sky>
+
+  
+  
+  <a-plane shadow="cast: true; receive: true" src="https://media.istockphoto.com/id/637645268/photo/brown-soil-on-the-ground.jpg?s=612x612&w=0&k=20&c=MtNW1xdiY2vxcKRt6RumMsfrK6Vf7eG7U7N4iTAkHRw=" rotation="-90 45 0" width="300" height="300" scale = "20 20 1"></a-plane>
+
+  <a-asset-item id="Rhino" src="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/model_56a_-_southern_white_rhino.glb"></a-asset-item>
+</a-assets>
+  
+  <a-entity shadow="cast: true; receive: false" gltf-model="#Rhino" animation-mixer="clip: Action;"  position="-41 0 -24" scale="30 30 30" ></a-entity>
+  <a-entity shadow="cast: true; receive: false" gltf-model="#Rhino" animation-mixer="clip: Action;"  position="95 0 -41" scale="30 30 30" rotation ="0 56 0"></a-entity>
+
+
+
+
+  <a-asset-item id="Fence" src="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/fence_and_gate_wood.glb"></a-asset-item>
+</a-assets>
+
+<a-entity shadow="cast: true; receive: false" gltf-model ="#Fence" scale ="28 28 28" position="-60 1 393" rotation="0 90 0"></a-entity>
+
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="330 3.5 315" rotation="0 43.5 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="-330 3.5 315" rotation="0 -43.5 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="-445.779 -1.135 122.104" rotation="0 105.000 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="449.483 6.487 123.155" rotation="0 75.000 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="-436.917 3.490 -99.521" rotation="0 69.990 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="-313.892 6.487 -283.962" rotation="0 40.000 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="-109.978 9.061 -363.808" rotation="0 0 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="117.270 3.490 -343.525" rotation="0 -5 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="-313.892 6.487 -283.962" rotation="0 40.000 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="334.319 -2.355 -278.049" rotation="0 150.000 0"></a-entity>
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/old_fence.glb" scale ="0.5 0.5 0.5" position="459.985 -6.438 -105.395" rotation="0 100 0"></a-entity>
+
+
+
+<a-entity shadow="cast: true; receive: false" gltf-model ="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/rock.glb"  position="-125.234 10 147.015" scale ="50 50 50" rotation="0 -30.000 0" ></a-entity>
+
+
+ 
+<a-entity shadow="receive: false" gltf-model="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/rock.glb" position="-125.234 10 -148.63822" scale="50 50 50" rotation="0 -90 0"></a-entity>
+<a-entity shadow="receive: false" gltf-model="https://raw.githubusercontent.com/ProgrammerSky/Rhino/master/rock.glb" position="226.57808 10 287.1" scale="50 50 50" rotation="0 -90 0"></a-entity>
+
+
+
+
+
+
+
+
+
+
+<a-entity camera look-controls wasd-controls="acceleration: 300;"position="15 30 500"></a-entity>
+
+
+
+
+
+</a-scene>
+</body>
+</html>
